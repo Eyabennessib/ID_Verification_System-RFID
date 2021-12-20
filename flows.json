@@ -1,0 +1,1 @@
+[{"id":"f3fe3f80.01ba7","type":"function","z":"1adbd8dc.43bce7","name":"Substring","func":"str = msg.payload\nmsg.payload = str.substring(6, 10);\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":240,"y":180,"wires":[["818c99c1.080178","4a4b26f4.51c9a8"]]}]
